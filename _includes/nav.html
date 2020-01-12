@@ -1,0 +1,23 @@
+<nav>
+    <ul>
+    {% for item in site.data.nav.menu %}
+        <li>
+            {% if item.sub %}
+                {{ item.title }}
+
+                <ul>
+                    {% for subitem in item.sub %}
+                        <li class="nav-item">
+                            <a href="{{ subitem.url }}" alt="{{ subitem.title }}">
+                                {{ subitem.title }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
+            {% endif %}
+        </li>
+    {% endfor %}
+    </ul>
+</nav>

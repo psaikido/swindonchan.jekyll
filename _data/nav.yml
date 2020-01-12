@@ -1,0 +1,82 @@
+menu:
+
+    - title: home
+      url: /index.html
+
+    - title: where
+      url: /pages/where.html
+
+    - title: when
+      url: /pages/when.html
+
+    - title: who
+      url: /pages/who.html
+
+    - title: why...
+      sub: 
+        - title: teachings from John Crook 1 
+          url: /pages/teachingsJC1.html
+
+        - title: teachings from John Crook 2 
+          url: /pages/teachingsJC2.html
+
+        - title: Master Sheng-yen lecture
+          url: /pages/sheng-yen-lecture.html
+
+        - title: Consider Yourself a Tourist
+          url: /pages/tourist.html
+
+    - title: how...
+      sub: 
+        - title: Metta Bhavana - loving kindness
+          url: /pages/metta.html
+
+        - title: the Mahamati
+          url: /pages/mahamati.html
+
+        - title: Anapanasati
+          url: /pages/anapanasati.html
+
+        - title: aspirational prayer with mala
+          url: /pages/mala12.html
+
+    - title: more...
+      sub: 
+        - title: quotes
+          url: /pages/quotes.html
+
+        - title: benches
+          url: /pages/benches.html
+
+        - title: Maenllwyd retreat centre
+          url: /pages/maenllwyd.html
+
+        - title: liturgy
+          url: /pages/liturgy.html
+
+        - title: Tilopa's words of advice
+          url: /pages/tilopa.html
+
+        - title: Ezra Bayda - What is Our Life About?
+          url: /pages/bayda.html
+
+        - title: Medicine Buddha visualisation
+          url: /pages/medicine-buddha.html
+
+        - title: Radio Swindon
+          url: /pages/radio-swindon.html
+
+    - title: FAQ
+      url: /pages/faq.html
+
+    - title: links
+      url: /pages/links.html
+
+    - title: library
+      url: /pages/library.html
+
+    - title: sutras
+      url: /pages/sutras.html
+
+    - title: contact
+      url: /pages/contact.html
