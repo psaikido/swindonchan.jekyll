@@ -1,10 +1,11 @@
-title: Swindon Chan Group
-email: hughie@swindonchan.org
-description: Swindon Chan meditation group
-baseurl: "/"
 url: "http://swindonchan.org"
+email: hughie@swindonchan.org
+baseurl: "/"
+title: Swindon Chan Group
+description: Swindon Chan meditation group
 favicon: /assets/images/favicon-32x32.png
 permalink: /:path/:basename:output_ext
+google_analytics: UA-1199885-1
 
 markdown: kramdown
 kramdown:
@@ -24,3 +25,4 @@ exclude:
     - changelog.md
     - "*.Rmd"
     - notes.txt
+    - bin/*

@@ -1,5 +1,5 @@
 body, table {
-    background-color: #555559;
+    background-color: $bkg;
     font-family: verdana,arial,Kalimati,sans-serif;
     font-size: 12px;
     font-weight: bold;
@@ -7,10 +7,66 @@ body, table {
 }
 
 #outer {
-    position:relative;
-    height: 380px;
+    position: relative;
     margin: 10px auto;
-    width: 630px;
+    max-width: 630px;
+
+    #header {
+        background: url(/assets/images/headerBack.gif) no-repeat scroll center top transparent;
+        height: 131px;
+        position: relative;
+
+        #headerContent {
+            color: $hilight;
+            font-size: 14px;
+            left: 70px;
+            letter-spacing: 7px;
+            padding: 5px;
+            position: relative;
+            text-align: center;
+            top: 30px;
+        }
+    }
+
+    #mainContent {
+        border: 1px solid #333333;
+        color: #333333;
+        height: auto;
+        min-height: 351px;
+        position: absolute;
+        text-align: left;
+        top: 100px;
+        left: 150px;
+        width: 420px;
+        padding:30px;
+        z-index:0;
+
+        a:visited {
+            color: $text-mute;
+        }
+
+        ul {
+            list-style-type:square;
+
+            li {
+                line-height: 40px;
+            }
+        }
+    }
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    background: rgba(220, 220, 220, .8);
+
+    #footer-text {
+        float: right;
+        margin-right: 20px;
+        color: $text-mute;
+    }
 }
 
 #contactForm {
@@ -21,55 +77,8 @@ body, table {
     }
 }
 
-#header {
-    background: url(/assets/images/headerBack.gif) no-repeat scroll center top transparent;
-    height: 131px;
-    position: relative;
-
-    #headerContent {
-        color: #C0B7B0;
-        font-size: 14px;
-        left: 70px;
-        letter-spacing: 7px;
-        padding: 5px;
-        position: relative;
-        text-align: center;
-        top: 30px;
-    }
-}
-
-#mainContent {
-    border: 1px solid #333333;
-    color: #333333;
-    height: auto;
-    min-height: 351px;
-    position: absolute;
-    text-align: left;
-    top: 100px;
-    left: 150px;
-    width: 420px;
-    padding:30px;
-    z-index:0;
-
-    a:visited {
-        color: #3333EE;
-    }
-
-    ul {
-        list-style-type:square;
-
-        li {
-            line-height: 40px;
-        }
-    }
-}
-
 #mainContent, #mainContent table {
     background: url(/assets/images/clouds.jpg) repeat scroll 0 0 transparent;
-}
-
-* html #mainContent {
-    height: 319px;
 }
 
 .scriptMessage, .scriptMessage a {
@@ -138,3 +147,4 @@ body, table {
     vertical-align:top;
     padding:5px;
 }
+
